@@ -230,10 +230,11 @@
                             alert("Team data loaded for editing!");
                         } else {
                             alert("Team data not found for the provided registration number.");
+                            window.location.href = 'login.htm';
                         }
                     } else {
                         alert('Team data not found for the provided registration number.');
-                        window.location.href = 'register.htm';
+                        window.location.href = 'login.htm';
                     }
                 });
             }
